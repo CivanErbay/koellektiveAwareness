@@ -24,13 +24,14 @@
         :class="
           isCurrentRoute(navlink, currentPath)
             ? 'bg-[#ec0054] text-white'
-            : 'white text-black'
+            : 'white !text-black'
         "
       >
       </BaseButton>
     </div>
     <BaseButton
       class="ml-3 bg-[#ff2674]"
+      target="_blank"
       size="xl"
       ><a
         href="mailto:info@koellektive-awareness.de"

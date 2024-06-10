@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import checkDarkTheme from '@/composables/dark-color-scheme-check?raw'
   import type { Script } from '@unhead/schema'
   type TurboScript = Script & { once: true }
 
@@ -72,7 +71,6 @@
     //   { name: 'author', content: author },
     //   { name: 'keywords', content: route.meta.tags?.toString() },
     // ],
-    script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
     link,
     noscript,
   })

@@ -18,7 +18,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
             </p>
-            <BaseButton class="text-black bg-white" size="xl" to="/projects"> Mehr erfahren </BaseButton>
+            <BaseButton class="!text-black bg-white" size="xl" to="/projects"> Mehr erfahren </BaseButton>
           </div>
         </div>
       </div>

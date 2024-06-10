@@ -19,6 +19,10 @@
       type: String,
       default: 'button',
     },
+    classes: {
+      type: String,
+      default: '',
+    },
     block: {
       type: Boolean,
       default: false,
