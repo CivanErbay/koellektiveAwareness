@@ -31,8 +31,6 @@
     </div>
     <BaseButton
       class="ml-3 bg-[#ff2674]"
-      target="_blank"
-      to="https://vuedesigner.com"
       size="xl"
       ><a
         href="mailto:info@koellektive-awareness.de"
