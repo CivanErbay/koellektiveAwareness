@@ -17,7 +17,10 @@ export default defineNuxtConfig({
   extends: [
     './my-nuxt-tailwindcss-layer', // NavBar and Footer components
   ],
-  // ssr: false,
+  site: {
+    url: 'https://koellektive-awareness.de', // Replace with your actual site URL
+  },
+  ssr: true,
   devtools: { enabled: false }, // Disable when using Vue devtools
 
   experimental: {
