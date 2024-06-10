@@ -21,20 +21,27 @@
         :to="navlink.link"
         :label="navlink.text"
         size="lg"
-        :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'"
-        class="!rounded-lg"
+        :class="
+          isCurrentRoute(navlink, currentPath)
+            ? 'bg-[#ec0054] text-white'
+            : 'white text-black'
+        "
       >
       </BaseButton>
     </div>
     <BaseButton
-      class="ml-3"
+      class="ml-3 bg-[#ff2674]"
       target="_blank"
       to="https://vuedesigner.com"
       size="xl"
-      color="secondary"
-      ><span class="pl-2">Try Now</span>
+      ><a
+        href="mailto:info@koellektive-awareness.de"
+        class="hover:text-primary-600 dark:text-primary-200"
+      >
+        Kontakt
+      </a>
       <template #trailing>
-        <BaseIcon name="i-mdi-pine-tree" height="24px"></BaseIcon>
+        <BaseIcon name="i-mdi-account-box" height="24px"></BaseIcon>
       </template>
     </BaseButton>
   </div>

@@ -5,8 +5,8 @@
     // layout: 'default',
     // name: 'index',
     // alias: 'index',
-    title: 'Home',
-    description: 'Thousands of homeless pets, one act of kindness!',
+    title: 'Angebote',
+    description: 'Unsere Kursangebote',
     navOrder: 1,
     type: 'primary',
     icon: 'i-mdi-home',
@@ -31,17 +31,15 @@
       true /* return bgStyles */,
     ),
   }
-
-  const heroImage = heroImageOptimized.src
-  const bgStyles = heroImageOptimized.bgStyles
 </script>
 <template>
   <div>
     <HeroSection />
-    <CallToAction />
-    <MiniDivider />
     <OurMission />
-    <PetListLite />
+    <CallToAction />
+    <!-- <MiniDivider /> -->
+
+    <!-- <PetListLite /> -->
     <StatsSection />
   </div>
 </template>

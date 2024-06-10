@@ -31,7 +31,7 @@ export const useNav = () => {
     })
 
   const navlinksFromConfig = site.nav
-  const navlinks = computed(() => navlinksFromRouter || navlinksFromConfig)
+  const navlinks = computed(() => navlinksFromConfig)
   // TODO: Use navlinksFromConfig if using dynamic routes, or customized nav-links
   // const navlinks = computed(() => navlinksFromConfig || navlinksFromRouter)
 

@@ -27,7 +27,7 @@
         {{ breed }}
       </p>
       <BaseButton size="lg"
-        ><span>Adopt Now</span>
+        ><span>Projekte</span>
         <BaseIcon
           name="i-ri-heart-add-fill"
           height="20px"

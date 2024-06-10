@@ -5,11 +5,10 @@
 export default {
   name: 'Köllektive Awareness',
   description: 'Safer Space Awareness Coaching',
-  logo: 'i-noto:cat-face',
-  author: 'Pinegrow',
-  url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
-  github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
-  defaultLocale: 'en', // default
+  //logo: 'i-noto:cat-face',
+  logo: 'LOGO',
+  author: 'Civan Erbay',
+  defaultLocale: 'de', // default
   identity: {
     type: 'Organization',
   } as any,
@@ -17,26 +16,27 @@ export default {
   trailingSlash: false, // default
   titleSeparator: '|', // default
   nav: [
-    { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Adopt Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
-    {
-      text: 'Donate',
-      link: '/quick-start',
-      type: 'secondary',
-      icon: 'i-mdi-home',
-    },
-    {
-      text: 'Articles',
-      link: '/articles',
-      type: 'secondary',
-      icon: 'i-mdi-home',
-    },
-    { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
-    {
-      text: 'Volunteer',
-      link: '/volunteer',
-      type: 'secondary',
-      icon: 'i-mdi-home',
-    },
+    { text: 'Angebote', link: '/', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Projekte', link: '/projects', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Mitmachen', link: '/volunteer', type: 'primary', icon: 'i-mdi-home' },
+    // {
+    //   text: 'Donate',
+    //   link: '/quick-start',
+    //   type: 'secondary',
+    //   icon: 'i-mdi-home',
+    // },
+    // {
+    //   text: 'Articles',
+    //   link: '/articles',
+    //   type: 'secondary',
+    //   icon: 'i-mdi-home',
+    // },
+    // { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
+    // {
+    //   text: 'Volunteer',
+    //   link: '/volunteer',
+    //   type: 'secondary',
+    //   icon: 'i-mdi-home',
+    // },
   ],
 }
