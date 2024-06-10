@@ -61,9 +61,21 @@
   }
 
   const theOgImage = theOgImageOptimized.src
+  const isLoaded = ref(false)
+  onMounted(() => (isLoaded.value = true))
 </script>
 <template>
-  <div>
+  <div
+    v-if="!isLoaded"
+    :style="
+      !isLoaded
+        ? 'min-height: 100vh; display: flex; justify-content: center; align-items: center;'
+        : ' '
+    "
+  >
+    <div class="lds-dual-ring"></div>
+  </div>
+  <div v-else>
     <HeadAndMeta />
     <!-- We pass image separately so that alias can be transformed by vue plugin, see vite.vue.template.transformAssetUrls in nuxt.config.ts -->
     <OgImage :image="theOgImage" v-bind="ogImageOptions" />
@@ -73,4 +85,33 @@
     </NuxtLayout>
   </div>
 </template>
-<style></style>
+<style>
+  .lds-dual-ring,
+  .lds-dual-ring:after {
+    box-sizing: border-box;
+  }
+  .lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: ' ';
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6.4px solid #ec0054;
+    border-color: #ec0054 transparent #ec0054 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
