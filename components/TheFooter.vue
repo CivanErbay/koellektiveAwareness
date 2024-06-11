@@ -18,7 +18,7 @@
               />
             </div>
           </NuxtLink>
-          <p class="mt-2 text-center w-full lg:text-left">
+          <!-- <p class="mt-2 text-center w-full lg:text-left">
             Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec.
             Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper
             semper.
@@ -74,9 +74,9 @@
                 ></BaseIcon>
               </NuxtLink>
             </div>
-          </div>
+          </div> -->
           <div class="my-6 text-left">
-            <NuxtLink to="/">+123 456 789</NuxtLink>
+            <!-- <NuxtLink to="/">+123 456 789</NuxtLink> -->
             <br />
             <NuxtLink to="/">info@koellektive-awareness.de</NuxtLink>
           </div>
@@ -88,27 +88,27 @@
             General
           </h2>
           <ul class="text-center lg:ml-4 lg:mt-2 lg:text-left">
-            <li class="mb-4">
+            <!-- <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
                 >FAQ</NuxtLink
               >
-            </li>
-            <li class="mb-4">
+            </li> -->
+            <!-- <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
                 >Neuigkeiten</NuxtLink
               >
-            </li>
-            <li class="mb-4">
+            </li> -->
+            <!-- <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
                 >Bewerben</NuxtLink
               >
-            </li>
+            </li> -->
             <li class="mb-4">
               <a
                 href="mailto:info@koellektive-awareness.de"

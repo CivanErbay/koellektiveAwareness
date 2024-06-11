@@ -5,7 +5,7 @@
     alt: `hero`,
     cover: true,
     src: heroImageUrl,
-    bgStyles: `background-image: url(${heroImageUrl});`,
+    bgStyles: `background-image: url('/images/party_3.jpg');`,
   }
 
   // console.log(heroImage)
@@ -25,21 +25,24 @@
           <div
             class="-mx-4 flex flex-wrap items-center mt-24 space-y-6 lg:space-y-0"
           >
-            <div class="p-8 w-full md:w-8/12 xl:w-6/12 bg-[#131313] bg-opacity-50">
+            <div
+              class="p-8 w-full md:w-8/12 xl:w-6/12 bg-[#131313] bg-opacity-50"
+            >
               <h4
                 class="font-bold font-serif mb-1 text-[#ec0054] dark:text-primary-200 uppercase"
               >
-                Awareness
+                Safer Space
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">
                 Köllektive Awareness
               </h1>
-              <p class="font-thin text-gray-300 max-w-lg">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              <p class="font-thin text-gray-300 max-w-2xl text-lg">
+                Wir setzen uns ein für ein achtsames und rücksichtsvolles
+                Miteinander auf Veranstaltungen, damit sich alle Personen
+                sicherer und freier entfalten können. Dafür beraten wir
+                Veranstalter*innen und Veranstaltungsorte, wie sie Awareness im
+                Kontext ihrer Events stärken können.
               </p>
-          
             </div>
           </div>
         </div>

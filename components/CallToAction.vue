@@ -1,12 +1,12 @@
 <script setup lang="ts">
   const callToActions = [
     {
-      img: '/images/courses.jpg',
+      img: '/images/schulung.jpg',
       action: 'Schulungen',
       to: '/courses',
     },
     {
-      img: '/images/consulting.jpg',
+      img: '/images/beratung.jpg',
       action: 'Beratungen',
       to: '/consultations',
     },
@@ -20,13 +20,13 @@
 <template>
   <section class="container mx-auto px-4 py-24">
     <div>
-      <h6 class="text-primary-600 dark:text-primary-200 text-center uppercase">
+   <!--    <h6 class="text-primary-600 dark:text-primary-200 text-center uppercase">
         Get Involved
-      </h6>
+      </h6> -->
       <h3 class="capitalize mt-3 text-center">Angebote</h3>
-      <p class="mt-4 text-center">
+      <!-- <p class="mt-4 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
+      </p> -->
     </div>
     <div class="-mx-4 flex flex-wrap justify-center mt-12">
       <CallToActionCard

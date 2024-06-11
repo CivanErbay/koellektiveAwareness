@@ -238,13 +238,13 @@ const pg_font_urls = [
 // }
 
 const pg_backgrounds = {
-  'design-image': "url('/images/bg_one.jpg')",
-  'design-image-large': "url('/images/bg_one.jpg')",
+  'design-image': "url('/images/party_3.jpg')",
+  'design-image-large': "url('/images/party_3.jpg')",
 }
 
 const pg_background_urls = {
-  'design-image': '/images/bg_one.jpg',
-  'design-image-large': '/images/bg_one.jpg',
+  'design-image': '/images/party_3.jpg',
+  'design-image-large': '/images/party_3.jpg',
 }
 
 export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls }
