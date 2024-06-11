@@ -9,7 +9,7 @@
 <template>
   <section>
     <div class="bg-[#ff2674] bg-opacity-30 dark:[#ff2674]">
-      <div class="pb-12 pt-12">
+      <div class="md:pb-12 md:pt-12">
         <div class="container mx-auto px-4 py-12 relative">
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="p-4 w-full lg:w-2/5 rounded-3xl">

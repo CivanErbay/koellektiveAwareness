@@ -22,36 +22,14 @@
   }
 
   const bgStyles = heroImageOptimized.bgStyles
-  // const { optimizeImage } = useOptimizeImage()
-  // const imageOptimized = computed(() => {
-  //   return {
-  //     alt: action,
-  //     cover: true,
-  //     ...optimizeImage(
-  //       img,
-  //       /* options */
-  //       {
-  //         /* If using local images instead of unsplash url, enable netlify provider */
-  //         // provider:
-  //         //     process.env.NODE_ENV === 'production'
-  //         //       ? 'netlify'
-  //         //       : null /* defaults to ipx or ipxStatic */,
-  //         // placeholder: false, // placeholder image before the actual image is fully loaded.
-  //       },
-  //       true /* return bgStyles */,
-  //     ),
-  //   }
-  // })
-
-  // const bgStyles = imageOptimized.value.bgStyles
 </script>
 <template>
-  <div class="pb-4 px-4 rounded-3xl w-full sm:w-8/12 md:w-6/12 lg:w-4/12">
+  <div class="pb-4 px-4 rounded-3xl my-4 md:my-0 w-full sm:w-8/12 md:w-6/12 lg:w-4/12">
     <div
-      class="bg-cover bg-no-repeat flex pb-4 pt-96 px-4 rounded-3xl bg-center"
+      class="bg-cover bg-no-repeat flex pb-4 h-8 md:h-full pt-96 px-4 rounded-3xl bg-center"
       :style="bgStyles"
     >
-      <NuxtLink :to="to" class="group mx-auto w-5/6 pointer-events-none">
+      <NuxtLink :to="to" class="group mx-auto w-5/6 pointer-events-none -mt-9">
         <BaseButton size="xl" class="font-semibold rounded-lg w-full bg-[#ff2674]" block>
           <div class="font-semibold my-2 text-center">
             {{ action }}

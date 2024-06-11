@@ -12,7 +12,7 @@
   const bgStyles = heroImageOptimized.bgStyles
 </script>
 <template>
-  <section class="container mx-auto pb-12 px-4">
+  <section class="container mx-auto pb-12 px-4 my-8">
     <div
       class="bg-center bg-cover bg-no-repeat blur-none rounded-3xl z-0"
       :style="bgStyles"
