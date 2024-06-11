@@ -119,7 +119,7 @@
             </li>
             <li class="mb-4">
               <NuxtLink
-                to="/"
+                to="/impressum"
                 class="hover:text-primary-600 dark:text-primary-200"
                 >Impressum</NuxtLink
               >
