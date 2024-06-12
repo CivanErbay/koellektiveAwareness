@@ -4,11 +4,11 @@
 <template>
   <footer class="pt-12">
     <div class="container mx-auto px-8">
-      <div class="flex flex-wrap relative">
+      <div class="flex flex-wrap justify-center relative">
         <div
-          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
+          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-4 md:pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
         >
-          <NuxtLink class="-ml-6" to="/">
+          <NuxtLink class="md:-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center">
               <NuxtImg
                 src="/images/logo.jpg"
@@ -18,26 +18,28 @@
               />
             </div>
           </NuxtLink>
-          <!-- <p class="mt-2 text-center w-full lg:text-left">
-            Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec.
-            Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper
-            semper.
+          <p class="mt-2 text-center w-full lg:text-left font-semibold">
+            Folgt uns auf Social Media!
+          </p>
+          <p class="mt-2 text-center w-full lg:text-left">
+            Bleibt immer auf dem Laufenden und verpasst keine Neuigkeiten,
+            Angebote und spannende Inhalte mehr!
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
               <NuxtLink
-                href="https://www.facebook.com/vuedesigner"
-                aria-label="facebook"
+                href="https://www.instagram.com/koellektive.awareness/"
+                aria-label="instagram"
                 external
                 target="_blank"
               >
                 <BaseIcon
-                  name="i-logos-facebook"
+                  name="i-logos-instagram-icon"
                   class="text-2xl"
                   width="28px"
                 ></BaseIcon>
               </NuxtLink>
-              <NuxtLink
+              <!--  <NuxtLink
                 href="https://twitter.com/vuedesigner"
                 aria-label="twitter"
                 external
@@ -72,9 +74,9 @@
                   class="text-2xl"
                   width="28px"
                 ></BaseIcon>
-              </NuxtLink>
+              </NuxtLink> -->
             </div>
-          </div> -->
+          </div>
           <div class="my-6 text-left">
             <!-- <NuxtLink to="/">+123 456 789</NuxtLink> -->
             <br />
@@ -158,7 +160,7 @@
               <NuxtLink
                 to="/volunteer"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Mithelfen</NuxtLink
+                >Mitmachen</NuxtLink
               >
             </li>
           </ul>

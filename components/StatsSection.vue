@@ -22,7 +22,7 @@
             <div class="lg:w-6/12 mx-auto p-4 w-full">
               <h6 class="mb-2 text-3xl font-bold">Über uns</h6>
     
-              <p>
+              <p class="text-lg">
                 Wir bieten jahrelange Erfahrung in der Beratung,
                 Konzeptionierung und Umsetzung von Awareness-Konzepten für eine
                 Vielfalt von Veranstaltungen. Unsere Expertise bündeln wir in

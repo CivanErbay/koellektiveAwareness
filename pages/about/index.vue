@@ -17,7 +17,7 @@
   >
     <div class="flex flex-col items-center">
       <div class="px-4 text-center w-full lg:w-7/12">
-        <h3 class="capitalize">Projekte</h3>
+        <h3 class="capitalize">Über uns</h3>
         <p class="mb-4">
           Schau bald wieder hier vorbei - unsere Seite befindet sich noch im Aufbau!
         </p>
