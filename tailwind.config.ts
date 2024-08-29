@@ -29,6 +29,7 @@ export default {
       fonts: getFontsWithFallback(pg_fonts),
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
+    require('flowbite/plugin')
   ],
   get content() {
     const _content = [
@@ -39,6 +40,7 @@ export default {
       '{.,*-layer}/nuxt.config.{js,ts}',
       '{.,*-layer}/app.vue',
       '{.,*-layer}/*.{mjs,js,ts}',
+      "./node_modules/flowbite/**/*.{js,ts}"
     ]
     return process.env.NODE_ENV === 'production'
       ? _content

@@ -23,8 +23,8 @@
         size="lg"
         :class="
           isCurrentRoute(navlink, currentPath)
-            ? 'bg-[#ec0054] text-white'
-            : 'white !text-black'
+            ? 'bg-[#ec0054] text-white !font-semibold'
+            : 'white !text-black !font-semibold'
         "
       >
       </BaseButton>
@@ -32,7 +32,7 @@
     <BaseButton class="ml-3 bg-[#ec0054]" target="_blank" size="xl"
       ><a
         href="mailto:info@koellektive-awareness.de"
-        class="hover:text-primary-600 dark:text-primary-200"
+        class="hover:text-primary-600 dark:text-primary-200 !font-semibold"
       >
         Kontakt
       </a>

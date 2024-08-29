@@ -20,6 +20,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://koellektive-awareness.de', // Replace with your actual site URL
   },
+
   ssr: true,
   devtools: { enabled: false }, // Disable when using Vue devtools
 
@@ -32,6 +33,10 @@ export default defineNuxtConfig({
     // Look into HeadAndMeta.vue for the rest
     head: {
       meta: [{ charset: 'utf-8' }], // defaulted by nuxt
+      /* link: [
+        { href: 'https://unpkg.com/flowbite@1.3.3/dist/flowbite.js' },
+      ],
+      script: [{ src: 'script.js' }], */
     },
   },
 
@@ -51,9 +56,9 @@ export default defineNuxtConfig({
     'nuxt-icon',
   ],
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
-  fontMetrics: {
+/*   fontMetrics: {
     fonts: ['Inter', 'Kalam'],
-  },
+  }, */
 
   // https://dev.to/jacobandrewsky/optimizing-css-performance-in-nuxt-with-critters-4k8i
   critters: {
