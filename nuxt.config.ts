@@ -118,9 +118,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    netlify: {
-      baseURL: url,
-    },
     domains: [
       'images.unsplash.com',
       'fakestoreapi.com',
