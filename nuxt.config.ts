@@ -20,6 +20,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://koellektive-awareness.de', // Replace with your actual site URL
   },
+  build: { transpile: ["shiki"] },
 
   ssr: true,
   devtools: { enabled: false }, // Disable when using Vue devtools
@@ -118,7 +119,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    build: { transpile: ["shiki"] },
 
     netlify: {
       baseURL: url,
