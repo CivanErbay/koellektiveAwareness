@@ -3,7 +3,7 @@
     <h4 id="accordion-collapse-heading-1">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3 outline-none"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3 outline-none"
         data-accordion-target="#accordion-collapse-body-1"
         aria-expanded="true"
         aria-controls="accordion-collapse-body-1"
@@ -33,7 +33,7 @@
       aria-labelledby="accordion-collapse-heading-1"
     >
       <div
-        class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+        class="p-5 border border border-[#ec0054] dark:border-gray-700 dark:bg-gray-900"
       >
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>Was ist Awareness im Veranstaltungskontext?</b> <br /><br />
@@ -64,7 +64,7 @@
     <h4 id="accordion-collapse-heading-2">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-2"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-2"
@@ -93,7 +93,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-2"
     >
-      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>Was sind elementare Grundprinzipien von Awareness?</b>
           <br />
@@ -113,7 +113,7 @@
     <h4 id="accordion-collapse-heading-3">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-3"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-3"
@@ -142,7 +142,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-3"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b
             >Über welche personellen, zeitlichen, räumlichen und finanziellen
@@ -166,7 +166,7 @@
     <h4 id="accordion-collapse-heading-4">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-4"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-4"
@@ -195,7 +195,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-4"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b
             >Bildet euer Team verschiedene soziale Positionierungen ab? Spiegelt
@@ -221,7 +221,7 @@
     <h4 id="accordion-collapse-heading-5">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-5"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-5"
@@ -250,7 +250,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-5"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b
             >Kennt euer Team die Grundlagen von Awareness und gibt es eine
@@ -274,7 +274,7 @@
     <h4 id="accordion-collapse-heading-6">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-6"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-6"
@@ -303,7 +303,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-6"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>
             Habt ihr für eure Veranstaltungen gemeinsame Werte für das
@@ -324,7 +324,7 @@
     <h4 id="accordion-collapse-heading-7">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-7"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-7"
@@ -353,7 +353,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-7"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>
             Gibt es No Gos auf euren Veranstaltungen? Wenn ja, welche? Welche
@@ -377,7 +377,7 @@
     <h4 id="accordion-collapse-heading-8">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-8"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-8"
@@ -406,7 +406,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-8"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>
             Kommuniziert ihr euren Verhaltenskodex und eure No Gos im Vorab? Ist
@@ -431,7 +431,7 @@
     <h4 id="accordion-collapse-heading-9">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-9"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-9"
@@ -460,7 +460,7 @@
       class="hidden w-[80vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-9"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b>
             Wer trifft Entscheidungen in eurem Team und wer hat Mitspracherecht?
@@ -488,7 +488,7 @@
     <h4 id="accordion-collapse-heading-10">
       <button
         type="button"
-        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+        class="flex mt-8 justify-between w-[80vw] md:w-[40vw] p-5 text-primary-600 rtl:text-right text-gray-500 border border-[#ec0054] focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
         data-accordion-target="#accordion-collapse-body-10"
         aria-expanded="false"
         aria-controls="accordion-collapse-body-10"
@@ -514,10 +514,10 @@
     </h4>
     <div
       id="accordion-collapse-body-10"
-      class="hidden w-[80vw] md:w-[40vw]"
+      class="hidden w-[90vw] md:w-[40vw]"
       aria-labelledby="accordion-collapse-heading-10"
     >
-      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <div class="p-5 border border border-[#ec0054] dark:border-gray-700">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           <b> Awareness-Arbeit ist ein Prozess. </b> <br /><br />Es ist
           essenziell, dass ihr euch weiterbildet und eure Struktur beständig

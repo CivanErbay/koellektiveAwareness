@@ -16,12 +16,15 @@
     <div class="-mx-4 flex flex-wrap">
       <div class="mx-auto px-4 rounded-2xl w-full lg:w-8/12">
         <div class="px-6 py-12 rounded-lg tertiary-card">
-          <h2 class="font-bold leading-tight mb-2 text-3xl py-10 text-center">
+          <h6 class="font-bold text-primary-600 leading-tight mb-2 text-3xl py-10 text-center">
+            FAQ
+          </h6>
+          <p class="mb-6 text-lg text-left">
             Die folgenden Infos sollen euch dabei helfen, ein Awareness-Konzept
             für eure Kulturveranstaltungen zu erarbeiten. Sie sind ein Transfer
             aus dem Seminar „Awareness für Kulturarbeiter*innen“ in Köln im Juni
             2024.
-          </h2>
+          </p>
           <div class="flex flex-col items-center">
             <Accordion></Accordion>
           </div>
