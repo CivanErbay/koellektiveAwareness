@@ -11,7 +11,7 @@
       to: '/consultations',
     },
     {
-      img: '/images/pill.jpg',
+      img: '/images/psycare-new.jpg',
       action: 'Psycare',
       to: '/psycare',
     },
