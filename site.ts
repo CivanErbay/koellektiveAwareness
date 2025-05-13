@@ -18,8 +18,9 @@ export default {
   nav: [
     { text: 'Angebote', link: '/', type: 'primary', icon: 'i-mdi-home' },
     { text: 'Projekte', link: '/projects', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'FAQ', link: '/faq', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Erste Schritte', link: '/faq', type: 'primary', icon: 'i-mdi-home' },
     { text: 'Mitmachen', link: '/volunteer', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Kontakt', link: '/contact', type: 'primary', icon: 'i-mdi-home' },
     // {
     //   text: 'Donate',
     //   link: '/quick-start',

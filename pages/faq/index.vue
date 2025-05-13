@@ -17,7 +17,7 @@
       <div class="mx-auto px-4 rounded-2xl w-full lg:w-8/12">
         <div class="px-6 py-12 rounded-lg tertiary-card">
           <h6 class="font-bold text-primary-600 leading-tight mb-2 text-3xl py-10 text-center">
-            FAQ
+            Erste Schritte
           </h6>
           <p class="mb-6 text-lg text-left">
             Die folgenden Infos sollen euch dabei helfen, ein Awareness-Konzept

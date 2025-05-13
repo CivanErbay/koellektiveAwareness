@@ -17,13 +17,16 @@ export default defineNuxtConfig({
   extends: [
     './my-nuxt-tailwindcss-layer', // NavBar and Footer components
   ],
+
   site: {
     url: 'https://koellektive-awareness.de', // Replace with your actual site URL
   },
-  build: { transpile: ["shiki"] },
 
+  build: { transpile: ["shiki"] },
   ssr: true,
-  devtools: { enabled: false }, // Disable when using Vue devtools
+
+  // Disable when using Vue devtools
+  devtools: { enabled: false },
 
   experimental: {
     componentIslands: true,
@@ -56,6 +59,7 @@ export default defineNuxtConfig({
     '@nuxtjs/critters',
     'nuxt-icon',
   ],
+
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   /*   fontMetrics: {
       fonts: ['Inter', 'Kalam'],
@@ -209,10 +213,12 @@ export default defineNuxtConfig({
     trailingSlash,
     titleSeparator,
   },
+
   robots: {
     // https://nuxtseo.com/robots/api/config#blocknonseobots
     blockNonSeoBots: true,
   },
+
   sitemap: {
     // https://nuxtseo.com/sitemap/guides/i18n#debugging-hreflang
     // Open https://the-ai-cafe.netlify.app/sitemap.xml
@@ -232,6 +238,7 @@ export default defineNuxtConfig({
     // Remove strictNuxtContentPaths if using nuxt-content in documentDriven mode
     strictNuxtContentPaths: true,
   },
+
   ogImage: {
     // Open https://the-ai-cafe.netlify.app/__og_image__/og.png
     // defaults: {
@@ -244,6 +251,7 @@ export default defineNuxtConfig({
     //   cache: false,
     // },
   },
+
   linkChecker: {
     enabled: false,
     excludeLinks: ['https://twitter.com/vuedesigner'],
@@ -284,4 +292,6 @@ export default defineNuxtConfig({
       // ],
     },
   },
+
+  compatibilityDate: '2025-05-13',
 })

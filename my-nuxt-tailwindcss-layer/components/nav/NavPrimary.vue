@@ -29,7 +29,7 @@
       >
       </BaseButton>
     </div>
-    <BaseButton class="ml-3 bg-[#ec0054]" target="_blank" size="xl"
+ <!--    <BaseButton class="ml-3 bg-[#ec0054]" target="_blank" size="xl"
       ><a
         href="mailto:info@koellektive-awareness.de"
         class="hover:text-primary-600 dark:text-primary-200 !font-semibold"
@@ -39,7 +39,7 @@
       <template #trailing>
         <BaseIcon name="i-mdi-account-box" height="24px"></BaseIcon>
       </template>
-    </BaseButton>
+    </BaseButton> -->
   </div>
 </template>
 <style scoped></style>
