@@ -130,13 +130,15 @@
               </p>
               <p>Bei weiteren Fragen stehen wir (Köllektive Awareness) gerne zur Verfügung.</p>
             </div>
-            <NuxtImg src="/images/logos.jpg" class="object-contain -hue-rotate-15 rounded-3xl"
-              alt="Unsere Mission" />
+            <div class="flex justify-center">
+              <NuxtImg src="/images/k-amt.png" class="object-contain h-20 rounded-3xl mt-4" alt="Unsere Mission" />
+              <NuxtImg src="/images/logo.jpg" class="object-contain h-24 rounded-3xl ml-8" alt="Unsere Mission" />
 
+            </div>
           </div>
 
           <!-- 2024 Label (unchanged) -->
-          <div class="border-2 border-solid border-black rounded-2xl w-full py-2 mt-24 mb-12">
+          <div class="border-2 border-solid border-black rounded-2xl w-full py-2 mt-24 lg:mt-48 mb-12">
             <h3 class="my-6 text-[#ec0054]">2024</h3>
           </div>
 
