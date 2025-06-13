@@ -80,7 +80,7 @@
                 Eine Verdolmetschung in Deutsche Gebärdensprache, Induktionstechnik oder Kinderbetreuung können wir
                 leider nicht anbieten.
               </p>
-              <p><strong>Anmeldung:</strong> bis zum 06.06.2025 per E-Mail an <a class="underline font-bold"
+              <p><strong>Anmeldung:</strong> bis zum 18.06.2025 per E-Mail an <a class="underline font-bold"
                   href="mailto:info@koellektive-awareness.de">info@koellektive-awareness.de</a></p>
             </div>
 
