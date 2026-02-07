@@ -19,33 +19,16 @@
               <h6 class="mb-2 text-3xl font-bold">Über uns</h6>
 
               <p class="text-lg">
-                Die Köllektive Awareness ist ein kollektiver Zusammenschluss von Menschen mit vielfältiger und
-                langjähriger Awareness-Erfahrung in verschiedenen Veranstaltungskontexten.
+                Die Köllektive Awareness ist ein Zusammenschluss von Menschen mit vielfältiger und langjähriger Erfahrung in Awareness-Arbeit in verschiedenen Kontexten.
                 <br>
                 <br>
-                Teilweise arbeiten wir seit 2016 Projekt- und Veranstaltungsbezogen zusammen und begleiten seitdem
-                Organisationen, Vereine, Kollektive, Veranstalter*innen und Veranstaltungsorte in ihren
-                Awareness-Prozessen.
-                Dazu gehören die Beratung und Begleitung interner Prozesse, zum Beispiel bei der Visionsfindung und
-                Entwicklung von Wertekatalogen (“Code of Conduct”). Ebenso gehören der Aufbau und die Schulung von
-                Awareness-Teams und die Entwicklung und Umsetzung umfangreicher Awareness-Konzepte zu unserem Angebot.
+                Teilweise arbeiten wir seit 2016 Projekt- und Veranstaltungsbezogen zusammen und begleiten seitdem Organisationen, Vereine, Kollektive, Veranstalter*innen und Veranstaltungsorte in ihren Awareness-Prozessen. Dazu gehören die Beratung und Begleitung interner Prozesse, zum Beispiel bei der Visionsfindung und Entwicklung von Wertekatalogen (“Code of Conduct”). Ebenso gehören der Aufbau und die Schulung von Awareness-Teams und die Entwicklung und Umsetzung umfangreicher Awareness-Konzepte zu unserem Angebot.
                 <br>
                 <br>
-                Unsere Positionierungen sind überwiegend weiß und heteronormativ. Dennoch finden sich in unseren Reihen
-                auch Diversitäten und Unterschiede in Bezug auf Herkunft, Neurodivergenzen, sozioökonomischen Status,
-                sexuelle Orientierung und Bildung. Wir streben eine soziokratische Selbstorganisation an und fällen
-                Entscheidungen im Konsent.
+                Innerhalb unserer Gruppe unterscheiden wir uns hinsichtlich unserer ethnischen Herkünfte, der Neurotypen, des sozioökonomischen Status, der sexuellen Orientierung sowie Identität und akademischer Bildungswege.
                 <br>
                 <br>
-                Uns eint die Vision einer Welt, in der Wertschätzung, Empathie, Gleichberechtigung und Solidarität unser
-                Miteinander und Handeln leiten und in der sich alle Mitglieder der Gesellschaft sicherer und freier
-                entfalten können.
-                Die dafür notwendige Aufklärung, Sensibilisierung, sowie relevante strukturelle Veränderungs- oder
-                Transformationsprozesse treiben wir durch die Implementierung von Awareness-Prozessen sowie dem Aufbau
-                von Awarenesss-Strukturen an. Damit setzen wir uns im Kontext von Events aktiv für Diversität und gegen
-                Diskriminierungsformen wie Sexismus, Rassismus, Antisemitismus und weitere Ideologien der Ungleichheit
-                ein.
-
+                Uns eint die Vision einer Welt, in der Wertschätzung, Empathie, Gleichberechtigung und Solidarität unser Miteinander und Handeln leiten und in der sich alle Menschen sicherer und freier entfalten können. Die dafür notwendige Aufklärung, Sensibilisierung, sowie relevante strukturelle Veränderungs- oder Transformationsprozesse treiben wir durch die Implementierung von Awareness-Prozessen sowie dem Aufbau von Awareness-Strukturen an. Damit setzen wir uns sowohl als Betroffene als auch als Verbündete gegen Diskriminierungsformen wie Sexismus, Rassismus, Antisemitismus und weitere Ideologien der Ungleichheit ein.
               </p>
               <!-- 
               <div class="-mx-4 flex flex-wrap items-center">
